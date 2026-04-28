@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #111;
-  color: white;
+  color: rgb(133, 21, 21);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ h1 {
   border-radius: 12px;
   font-weight: bold;
   cursor: pointer;
-  background: white;
+  background: rgb(128, 68, 68);
   color: black;
 }
 
