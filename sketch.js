@@ -1,4 +1,12 @@
 function openApp(url) {
+
+  // Instagram cannot be embedded → open in new tab
+  if (url.includes("instagram.com")) {
+    window.open(url, "_blank");
+    return;
+  }
+
+  // Other links → preview mode
   const appView = document.getElementById("appView");
 
   appView.innerHTML = `
