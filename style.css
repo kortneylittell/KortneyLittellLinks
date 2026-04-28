@@ -55,7 +55,7 @@ h1 {
 }
 
 .top-bar {
-  background: black;
+  background: rgb(81, 4, 4);
   color: white;
   padding: 12px;
   display: flex;
