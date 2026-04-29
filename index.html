@@ -1,29 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Links</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Links</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="container">
+      <h1>Kortney Littell</h1>
 
-  <div class="container">
-    <h1>Kortney Littell</h1>
+      <button
+        class="link-btn"
+        onclick="openApp('https://www.instagram.com/quartni.jpg?igsh=bDhhM3N2eTY4Mzls')"
+      >
+        Instagram
+      </button>
 
-    <button class="link-btn" onclick="openApp('https://www.instagram.com/quartni.jpg?igsh=bDhhM3N2eTY4Mzls')">
-      Instagram
-    </button>
+      <button
+        class="link-btn"
+        onclick="openApp('https://kortneylittell.github.io/portfolio/')"
+      >
+        Portfolio
+      </button>
 
-    <button class="link-btn" onclick="openApp('https://www.instagram.com/quartni.jpg?igsh=bDhhM3N2eTY4Mzls')">
-      will have portfolio link here
-    </button>
+      <p class="hint">Tap to open</p>
+    </div>
 
-    <p class="hint">Tap to open</p>
-  </div>
+    <div id="appView"></div>
 
-  <div id="appView"></div>
-
-  <script src="sketch.js"></script>
-</body>
+    <script src="sketch.js"></script>
+  </body>
 </html>
