@@ -30,6 +30,11 @@ h1 {
   cursor: pointer;
   background: #3a2d28;
   color: #ebe3db;
+
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .link-btn:hover {
