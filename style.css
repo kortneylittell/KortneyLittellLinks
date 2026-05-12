@@ -1,12 +1,21 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #d1b3a5;
+  font-family: "Reddit Mono", monospace;
+  background: #f1ede6;
   color: #3a2d28;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  letter-spacing: 2px;
+}
+
+
+.reddit-mono-regular {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
@@ -23,22 +32,29 @@ h1 {
   display: block;
   width: 100%;
   padding: 15px;
-  margin: 10px 0;
+  margin: 14px 0;
   border: none;
   border-radius: 12px;
   font-weight: bold;
+  font-family: "Reddit Mono", monospace;
+  letter-spacing: .2px;
   cursor: pointer;
-  background: #3a2d28;
-  color: #eae2da;
+  background: #ebe3db;
+  color: #3a2d28;
 
   text-decoration: none;
   font-size: 16px;
   font-family: Arial, sans-serif;
   box-sizing: border-box;
+
+  /* LEFT SIDE HARSH SHADOW */
+  box-shadow: -4px 5px 0px #A48374;
+
+  transition: transform 0.15s ease;
 }
 
 .link-btn:hover {
-  transform: scale(1.05);
+  transform: translateX(3px);
 }
 
 .hint {
