@@ -10,7 +10,6 @@ body {
   letter-spacing: 2px;
 }
 
-
 .reddit-mono-regular {
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
@@ -37,7 +36,7 @@ h1 {
   border-radius: 12px;
   font-weight: bold;
   font-family: "Reddit Mono", monospace;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   cursor: pointer;
   background: #ebe3db;
   color: #3a2d28;
@@ -48,7 +47,7 @@ h1 {
   box-sizing: border-box;
 
   /* LEFT SIDE HARSH SHADOW */
-  box-shadow: -4px 5px 0px #A48374;
+  box-shadow: -4px 5px 0px #a48374;
 
   transition: transform 0.15s ease;
 }
